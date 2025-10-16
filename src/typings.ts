@@ -347,7 +347,7 @@ export interface IDatabase {
  */
 export type ITransaction = Omit<
   IDatabase,
-  'backup' | 'serialize' | 'close' | 'transaction' | 'begin' | 'commit' | 'rollback'
+  'backup' | 'serialize' | 'close' | 'begin' | 'commit' | 'rollback'
 >;
 
 /**
